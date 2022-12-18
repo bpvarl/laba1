@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,900&subset=cyrillic");
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap);
+
+.logo {
+ width: 35%;
+ 
+
+}
+nav{
+    font-family: "Montserrat", sans-serif;
+ }
+.gl{
+    display: flex;
+   
+    padding: 50px;
+    border-bottom: 2px solid #000000;
+}
+
+ul {
+    color: #FFFFFF;
+   
+    margin-left:200px;
+    list-style-type: none;
+    display: flex;
+
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+ul li a {
+    text-transform: uppercase;
+text-decoration: none;
+color:#000000 ;
+
+    padding: 15px; 
+
+}
+ul li a:hover {
+    background: #000;
+    color: #fff;
+    transition: .5s
+}
+.mane{
+    text-align: left;
+    padding: 400px;
+    background-position: center;
+    background-image: url(images/bg_gl.jpg);
+}
+h1{
+    color: #FFFFFF;
+    text-shadow: 3px 3px 3px #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40pt;
+    font-weight: 600;
+    position  : absolute;
+    top     : 450px;
+    left        : 30px;
+    width       : 100%;
+    
+}
+h2{
+    color: #C0C0C0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+    position  : absolute;
+    top     : 630px;
+    left        : 30px;
+    width       : 100%;
+}

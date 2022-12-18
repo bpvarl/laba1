@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Предметы</title>
+	<link rel="stylesheet" href="{% static 'style_predmet.css' %}">
+</head>
+<body>
+	<div class="gl" >
+	 <header class="header">
+		<div>
+		<img class="logo" src="{% static 'images/logo.jpg' %}">
+		</div>
+		<nav><ul>
+			<li><a href="/">Главная</a></li>
+			<li><a href="/lesson">Предметы</a></li>
+			<li><a href="/contact">Обратная связь</a></li>
+			</ul>
+		</nav>
+		</header>
+		</div> 
+	<div class="pr_1">
+			<div class="math">
+				<h1 class="h1_pr"><a href="/lesson/math">Математика </a> </h1>
+			
+				<a href="/lesson/math"><img class="math_pr" src="{% static 'images/math.png' %}"></a>
+				
+
+			</div>
+			<div class="rus">
+			<h1 class="h1_pr"><a href="/lesson/rus">Русский язык</a></h1>
+			<a href="/lesson/rus"><img class="rus_pr" src="{% static 'images/rus.jpg' %}"></a>
+			
+			</div>
+			
+		</div>
+		<div class="pr_2">
+			<div class="eng">
+				<h1 class="h1_pr"><a href="/lesson/english/">Английский язык</a></h1>
+				<a href="/lesson/english/"><img class="eng_pr" src="{% static 'images/eng.png' %}"></a>
+				
+			</div>
+			<div class="fis">
+				<h1 class="h1_pr"><a href="/lesson/physics">Физика</a></h1>
+				
+				<a href="/lesson/physics"><img class="fis_pr" src="{% static 'images/fis.png' %}"></a>
+				
+			</div>
+		</div>
+		<div class="pr_3">
+			<div class="chem">
+				<h1 class="h1_pr"><a href="/lesson/chemical">Химия</a></h1>
+				<a href="/lesson/chemical"><img class="chem_pr" src="{% static 'images/che.jpg' %}"></a>
+				
+			</div>
+			<div class="bio">
+				<h1 class="h1_pr"><a href="/lesson/biology">Биология</a></h1>
+				
+				<a href="/lesson/biology"><img class="bio_pr" src="{% static 'images/bio.png' %}"></a>
+				
+			</div>
+		</div>
+</body>
+</html>

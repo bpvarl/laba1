@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,900&subset=cyrillic");
+.logo {
+ width: 35%;
+ 
+
+}
+a{
+    text-decoration: none;
+    color:#000000 ;
+ }
+ A:visited{
+    color: #000000;
+ }
+ a.text:active{
+  
+  color: #000000;
+}
+nav{
+    font-family: "Montserrat", sans-serif;
+ }
+.gl{
+    display: flex;
+   
+    padding: 50px;
+    border-bottom: 2px solid #000000;
+}
+
+ul {
+    color: #FFFFFF;
+   
+    margin-left:200px;
+    list-style-type: none;
+    display: flex;
+
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+ul li a {
+    text-transform: uppercase;
+text-decoration: none;
+color:#000000 ;
+
+    padding: 15px; 
+
+}
+ul li a:hover {
+    background: #000;
+    color: #fff;
+    transition: .5s
+}
+pr_1{
+	justify-content: space-between;
+	 font-family:"Oswald";
+	padding: 200px;
+	
+      display: inline-block;
+             
+}
+.math_pr{
+ width: 50%;
+}
+.math{
+
+
+    width: 50%;
+    float: left;
+}
+.rus{
+    
+    width: 50%;  
+    float: right;
+}
+.rus_pr{
+ width: 60%;
+}
+
+.h2_pr{
+
+color: #696969;
+}
+pr_2{
+    margin-top: 10px;
+    justify-content: space-between;
+     font-family:"Oswald";
+    padding: 200px;
+    display: inline-block;
+}
+.eng{
+
+    width: 50%;
+    float: left;
+}
+.eng_pr{
+    width: 55%;
+}
+.fis{
+    
+    width: 50%;
+    float: right;
+}
+.fis_pr{
+    width: 60%;
+}
+pr_3{
+    margin-top: 10px;
+    justify-content: space-between;
+     font-family:"Oswald";
+    padding: 200px;
+    display: inline-block;
+}
+.chem{
+    
+    width: 50%;
+    float: left;
+}
+.chem_pr{
+    width: 50%;
+}
+.bio{
+    
+    width: 50%;
+    float: right;
+}
+.bio_pr{
+    width: 50%;
+}
