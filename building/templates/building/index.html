@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>House161</title>
+	<link rel="stylesheet" href="{% static 'index.css' %}">
+</head>
+<body>
+	<header class="header">
+		<div>
+		<img class="logo" src="{% static 'images/logo.png' %}">
+		<h2 class="logo_h2"><b>Дом Ключ</b></h2>
+		</div>
+		<nav><ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="#obr1">Заказать проект</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="div_1">
+		<h1 class="h1">Строим Надежные Дома Со Сроком Эксплуатации От 150 Лет </h1>
+		<h1 class="h11">Строительство Домов Под Ключ В Новочеркасске И По Ростовской Области</h1>
+		<div class="cssSlider">
+	<ul class="slides">
+		<li id="slide1"><img src="{% static 'images/img1.jpg' %}" alt="" /></li>
+		<li id="slide2"><img src="{% static 'images/img2.jpg' %}" alt="" /></li>
+		<li id="slide3"><img src="{% static 'images/img3.jpg' %}" alt="" /></li>
+		<li id="slide4"><img src="{% static 'images/img4.jpg' %}" alt="" /></li>
+		<li id="slide5"><img src="{% static 'images/img5.jpg' %}" alt="" /></li>
+	</ul>
+	<ul class="thumbnails">
+		<li><a href="#slide1"><img src="{% static 'images/img1.jpg' %}" /></a></li>
+		<li><a href="#slide2"><img src="{% static 'images/img2.jpg' %}" /></a></li>
+		<li><a href="#slide3"><img src="{% static 'images/img3.jpg' %}" /></a></li>
+		<li><a href="#slide4"><img src="{% static 'images/img4.jpg' %}" /></a></li>
+		<li><a href="#slide5"><img src="{% static 'images/img5.jpg' %}" /></a></li>
+	</ul>
+</div>
+		
+	</div>
+	<div class="obr" id="obr1">
+
+		<h1 class="h1_obr">Для того чтобы  согласовать проект вашего дома напишите свое имя и номер телефона</h1>
+		<form  method = "POST">
+           {% csrf_token %}
+   			<p>Ваше имя: <input name="login"></p>
+   			<p><input type="tel" name="phone_number" list="tel-list" placeholder="+7 (900) 123-45-67" ></p>
+   			<p><input type="submit" value="Отправить"></p>
+       </form>
+	</div>
+	<div class="bottom">
+		<div class="bottom_left">
+			<img class="logo_bottom" src="{% static 'images/logo.png' %}">
+			<h2 class="logoh2"><b>Дом Ключ</b></h2>
+			
+		</div>
+		<div class="bot_h2">
+			<h2>Строительство качественных домов в Новочеркасске и по Ростовской области</h2>
+		</div>
+		
+	</div>
+	
+</body>
+</html>
